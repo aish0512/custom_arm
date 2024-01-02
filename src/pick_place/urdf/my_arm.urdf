@@ -42,9 +42,9 @@
         <inertial>
             <origin rpy="0 0 0" xyz="0 0 0.2"/>
             <mass value="157.633"/>
-            <inertia ixx="13.235" ixy="0" ixz="0"
-                iyy="13.235" iyz="0"
-                izz="9.655"/>
+            <inertia ixx="12.6106" ixy="0" ixz="0"
+                iyy="12.6106" iyz="0"
+                izz="7.9145"/>
         </inertial>
     </link>
      <joint name="joint_1" type="revolute">
@@ -58,9 +58,9 @@
         <inertial>
             <origin rpy="0 0 0" xyz="0 0 0.4"/>
             <mass value="57.906"/>
-            <inertia ixx="12.679" ixy="0" ixz="0"
-                iyy="12.679" iyz="0"
-                izz="0.651"/>
+            <inertia ixx="0.6514" ixy="0" ixz="0"
+                iyy="0.6514" iyz="0"
+                izz="3.4140"/>
         </inertial>
         <visual>
             <geometry>
@@ -114,9 +114,9 @@
         <inertial>
             <origin rpy="0 0 0" xyz="0 0 0.2"/>
             <mass value="57.906"/>
-            <inertia ixx="12.679" ixy="0" ixz="0"
-                iyy="12.679" iyz="0"
-                izz="0.651"/>
+            <inertia ixx="0.2895" ixy="0" ixz="0"
+                iyy="0.2895" iyz="0"
+                izz="0.9168"/>
         </inertial>
         <visual>
             <geometry>
@@ -142,9 +142,9 @@
         <inertial>
             <origin rpy="0 0 0" xyz="0 0 0.2"/>
             <mass value="57.906"/>
-            <inertia ixx="12.679" ixy="0" ixz="0"
-                iyy="12.679" iyz="0"
-                izz="0.651"/>
+            <inertia ixx="0.2895" ixy="0" ixz="0"
+                iyy="0.2895" iyz="0"
+                izz="0.9168"/>
         </inertial>
         <visual>
             <geometry>
@@ -171,9 +171,9 @@
     <inertial>
         <origin rpy="0 0 0" xyz="0 0 0.2"/>
         <mass value="57.906"/>
-        <inertia ixx="12.679" ixy="0" ixz="0"
-            iyy="12.679" iyz="0"
-            izz="0.651"/>
+        <inertia ixx="0.6514" ixy="0" ixz="0"
+            iyy="0.6514" iyz="0"
+            izz="1.0978"/>
     </inertial>
     <visual>
         <geometry>
@@ -214,7 +214,7 @@
         </collision>
         <inertial>
             <mass value="0.1" />
-            <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+            <inertia ixx="0.00035" iyy="0.00035" izz="0.000042" ixy="0.0" ixz="0.0" iyz="0.0" />
         </inertial>
     </link>
     <joint name="f_joint1" type="prismatic">
@@ -242,7 +242,7 @@
         </collision>
         <inertial>
             <mass value="0.1" />
-            <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+            <inertia ixx="0.00035" iyy="0.00035" izz="0.000042" ixy="0.0" ixz="0.0" iyz="0.0" />
         </inertial>
     </link>
     <joint name="f_joint2" type="prismatic">
