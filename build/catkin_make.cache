@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/aishwarya/Desktop/custom_pick_place/devel -DCMAKE_INSTALL_PREFIX=/home/aishwarya/Desktop/custom_pick_place/install -G Unix Makefiles
